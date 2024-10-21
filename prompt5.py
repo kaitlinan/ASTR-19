@@ -8,7 +8,7 @@ sin_values = np.sin(x_values) #the sin values of all the x values
 
 
 def mr_table():
-    data = Table([x_values,sin_values],names=['x','sin(x)'])
+    data = Table([x_values,sin_values],names=['x','sin(x)']) #using Astropy Table to use the x values and sin(x) values to make the table and print it out
     print(data)
 
 def main():
